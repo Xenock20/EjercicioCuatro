@@ -10,10 +10,12 @@ public class Main {
         System.out.println("Ingrese un numero: ");
         numeroIf = ingreso.nextInt();
 
-        if(numeroIf >= 0){
-            System.out.println("El numero es positivo o 0 (codicion if)");
-        } else {
-            System.out.println("El numero es negativo o 0 (codicion if)");
+        if(numeroIf > 0){
+            System.out.println("El numero es positivo (codicion if)");
+        } else if(numeroIf < 0){
+            System.out.println("El numero es negativo (codicion if)");
+        } else{
+            System.out.println("El numero 0 (codicion if)");
         }
         //Fin de la condicion if.
 
